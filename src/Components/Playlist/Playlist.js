@@ -6,6 +6,12 @@ class Playlist extends React.Component {
 
 	constructor(props){
     super(props);
+
+   /* this.state = {
+      playlistName: 'New Playlist',
+      playlistTracks: []
+
+    }; */
     
     this.handleNameChange = this.handleNameChange.bind(this); 
     }

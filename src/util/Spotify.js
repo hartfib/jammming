@@ -1,7 +1,7 @@
 const clientId = 'b72abf065dcc4b19b6188b6333012c32';
 
-//const redirectURI = "http://localhost:3000/";
-const redirectURI = 'http://hartfibjamming.surge.sh/'
+const redirectURI = "http://localhost:3000/";
+//const redirectURI = 'http://hartfibjamming.surge.sh/'
 
 let accessToken;
 

@@ -32,13 +32,12 @@ class App extends Component {
   }// end search
 
   addTrack(track){
-    let inPlaylist = false;
-
-    this.state.playlistTracks.forEach(trackObj => {
-        if (trackObj.id === track.id ) {
-          inPlaylist = true;
-        }
-    });
+    let tracks = this.state.playlistTracks;
+        if (tracks.find(savedTrack => savedTrack.id === track.id)) {
+         return;
+      }
+       tracks.push(track);
+      this.setState({playlistTracks: tracks});
 
   }//end addTrack
 
