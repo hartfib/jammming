@@ -66,8 +66,7 @@ class App extends Component {
       searchResults: [] 
     });
 
-  }//end savePlaylist
-
+  }//end savePlaylist 
 
   render() {
     return (

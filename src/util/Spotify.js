@@ -1,7 +1,7 @@
 const clientId = 'b72abf065dcc4b19b6188b6333012c32';
-
+const clientSecret = '885f477eaeb94c7db0b89cf554db5d91'
 const redirectURI = "http://localhost:3000/";
-//const redirectURI = 'http://hartfibjamming.surge.sh/'
+//const redirectURI = 
 
 let accessToken;
 
@@ -80,8 +80,6 @@ const Spotify = {
   		 		});
   		 	});
   		 });
-
-
   	}//end savePlaylist
 	
 }; //end
